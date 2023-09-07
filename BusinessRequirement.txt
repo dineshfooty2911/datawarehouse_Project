@@ -1,0 +1,55 @@
+Business Scenario:
+
+A retail company that sells products through various promotions and interacts with customers. The company wants to gain insights into their sales, product performance, customer behavior based on loaction.
+
+Business Requirement:
+
+Sales Analysis:
+The company wants to analyze sales data to understand which products are performing well, which promotions are effective, and the purchasing behavior of customers bases on their location.
+
+Customer Behavior Analysis:
+Understanding customer behavior is crucial. The company wants insights into the buying patterns, preferences, and demographics of its customers based on location.
+
+Product Performance Analysis:
+The performance of products should be tracked over time. This includes attributes like product descriptions, categories, prices, and their impact on sales.
+
+Promotion Effectiveness Analysis:
+The effectiveness of different promotions needs to be evaluated. This involves analyzing sales during promotion periods and identifying successful marketing strategies.
+
+Multi-Dimensional Model Design:
+
+The multi-dimensional model will consist of a central fact table and associated dimension tables. The fact table will store measures related to sales, while the dimension tables will store attributes for analysis.
+
+Fact Table:
+
+Sales Fact:
+Measures: quantity_sold, amount_sold, unit price and cost price
+
+Dimension Tables:
+
+a. Product Dimension (Type 2 SCD):
+Attributes: Product-related attributes like name, description, category, etc.
+
+b. Customer Dimension (Type 2 SCD):
+Attributes: Customer-related attributes like name, gender, marital status, etc.
+
+c. Location Dimension (Type 1 SCD):
+Attributes: Stores geographic details like countryname, country subregion, country region etc.
+
+d. Promotion Dimension (Type 1 SCD):
+Attributes: Promotion-related attributes like promotion name, subcategory, category, etc.
+
+e. Time Dimension (Type 0 SCD):
+Attributes: Time-related attributes like year, quarter, month, day, etc.
+
+Implementation:
+
+Type 1 SCD (Promotion and Location Dimension): Changes overwrite existing values.
+
+Type 2 SCD (Product and Customer Dimensions): Changes to products and customers are preserved historically. When there are changes, new records are added with effective dates and previous records retain their validity periods.
+
+Benefits:
+
+The multi-dimensional model and the Slowly Changing Dimensions (Type 1 and Type 2) allow the company to perform historical analysis, track changes, and understand the dynamics of their business. By analyzing sales, customer behavior, product performance, and promotion effectiveness, the company can make informed decisions to optimize their strategies.
+
+This model enables the company to slice and dice data from different perspectives, such as analyzing sales by product, customer segment, promotion, and time period. Additionally, historical data helps them identify trends, patterns, and correlations, leading to better insights for decision-making.
