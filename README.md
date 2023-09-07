@@ -1,6 +1,6 @@
 # Sales Data Mart and OLAP Cubes in Oracle 19c Database
 
-Overview
+Overview-
 
 This project aims to establish a specialized Sales Data Mart to enhance data analytics and reporting for the Sales Department. Data is initially sourced from CSV files and loaded into an Oracle 19c database. The ETL process is managed through PL/SQL procedures and SSIS, transforming the relational data into a dimensional model. Finally, OLAP cubes are generated for advanced analytical capabilities.
 
