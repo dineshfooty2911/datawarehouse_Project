@@ -98,13 +98,7 @@ Each dimension table has a specific schema that aligns with its attributes. For 
 The FactSales table schema is designed to accommodate aggregated sales data and links to dimension tables. This schema enables multi-dimensional analysis, allowing exploration of sales insights from various perspectives.
 
 ### Data Integrity and Referential Integrity
-Data integrity is vital. We enforce referential integrity through foreign key relationships between dimension and fact tables, ensuring data consistency and accurate maintenance across the data mart.
-
-### Maintaining Data Quality
-Establishing constraints and validation rules maintains data quality within the Sales Data Mart, minimizing errors, inconsistencies, and inaccuracies affecting analytical outcomes.
-
-### Indexing for Performance
-Indexing on frequently queried columns enhances data retrieval performance. Indexes are created on columns like customer IDs, product IDs, and dates, speeding up the process of retrieving specific data subsets.
+Data integrity is vital. We enforce referential integrity through foreign key relationships between dimension and fact tables, ensuring data consistency and accurate maintenance across the data mart.Establishing constraints and validation rules maintains data quality within the Sales Data Mart, minimizing errors, inconsistencies, and inaccuracies affecting analytical outcomes.Indexing on frequently queried columns enhances data retrieval performance. Indexes are created on columns like customer IDs, product IDs, and dates, speeding up the process of retrieving specific data subsets.
 
 ## ETL Process
 The ETL process involves three key stages:
