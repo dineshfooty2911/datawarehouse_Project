@@ -45,15 +45,7 @@ The Sales Data Mart Project aims to enhance data analytics and reporting capabil
 A retail company selling products through various promotions needs insights into their sales, product performance, and customer behavior based on location.
 ### Sales Analysis
 Analyze sales data to understand product performance, promotion effectiveness, and customer purchasing behavior by location.
-
-### Customer Behavior Analysis
-Gain insights into buying patterns, preferences, and demographics of customers based on their location.
-
-### Product Performance Analysis
-Track product performance over time, including attributes like descriptions, categories, prices, and their impact on sales.
-
-### Promotion Effectiveness Analysis
-Evaluate the effectiveness of different promotions by analyzing sales during promotion periods and identifying successful marketing strategies.
+Gain insights into buying patterns, preferences, and demographics of customers based on their location.Track product performance over time, including attributes like descriptions, categories, prices, and their impact on sales.Evaluate the effectiveness of different promotions by analyzing sales during promotion periods and identifying successful marketing strategies.
 
 ## Multi-Dimensional Model Design
 The multi-dimensional model consists of a central fact table and associated dimension tables. The fact table stores measures related to sales, while the dimension tables store attributes for detailed analysis.
