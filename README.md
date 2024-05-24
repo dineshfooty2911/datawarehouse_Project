@@ -15,7 +15,6 @@
 11. [Benefits](#benefits)
 12. [Schema Creation and Data Integrity](#schema-creation-and-data-integrity)
 13. [ETL Process](#etl-process)
-14. [OLAP](#olap)
 15. [Conclusion](#conclusion)
 
 ## Overview
@@ -132,5 +131,3 @@ The successful execution of the Sales Data Mart Project underscores our technica
 This project positions us to derive comprehensive insights from our sales analytics, supporting data-driven decision-making and technological innovation. As we move forward, our Sales Data Mart stands as a testament to our commitment to leveraging data for strategic advantage.
 
 ---
-
-Thank you for considering our Sales Data Mart Project. For any queries or further information, please contact our team.
