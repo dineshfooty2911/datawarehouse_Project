@@ -9,8 +9,6 @@
 6. [Future Scope](#future-scope)
 8. [Business Requirements](#business-requirements)
 9. [Multi-Dimensional Model Design](#multi-dimensional-model-design)
-   - [Fact Table](#fact-table)
-   - [Dimension Tables](#dimension-tables)
 10. [Implementation](#implementation)
 11. [Benefits](#benefits)
 12. [Schema Creation and Data Integrity](#schema-creation-and-data-integrity)
