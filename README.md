@@ -7,7 +7,6 @@
 4. [Features](#features)
 5. [Constraints](#constraints)
 6. [Future Scope](#future-scope)
-7. [Business Scenario](#business-scenario)
 8. [Business Requirements](#business-requirements)
    - [Sales Analysis](#sales-analysis)
    - [Customer Behavior Analysis](#customer-behavior-analysis)
@@ -46,11 +45,9 @@ The Sales Data Mart Project aims to enhance data analytics and reporting capabil
 ## Future Scope
 - Implement real-time data updating.
 - Extend the data mart to include additional departments.
-
-## Business Scenario
-A retail company selling products through various promotions needs insights into their sales, product performance, and customer behavior based on location.
-
+- 
 ## Business Requirements
+A retail company selling products through various promotions needs insights into their sales, product performance, and customer behavior based on location.
 ### Sales Analysis
 Analyze sales data to understand product performance, promotion effectiveness, and customer purchasing behavior by location.
 
