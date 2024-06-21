@@ -102,7 +102,6 @@ Extracted data undergoes transformation to fit the dimensional model structure. 
 ### Load
 Transformed data is loaded into the Sales Data Mart's dimension and fact tables, organizing it for efficient analysis.
 
-We use PL/SQL procedures and SSIS for the ETL process.
 
 ## OLAP
 Creating OLAP (Online Analytical Processing) cubes allows quick querying and analysis of data, especially for complex aggregations and calculations across multiple dimensions.
