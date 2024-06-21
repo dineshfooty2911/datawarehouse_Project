@@ -1,4 +1,4 @@
-# Sales Data Mart Project
+# Datawarehouse Project
 
 ## Table of Contents
 1. [Overview](#overview)
