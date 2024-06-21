@@ -1,7 +1,7 @@
 # Datawarehouse Project
 
 ## Table of Contents
-1. [Overview](#overview)
+1. [Introduction](#overview)
 2. [Tech Stack](#tech-stack)
 3. [Data Sources](#data-sources)
 4. [Features](#features)
@@ -15,7 +15,7 @@
 13. [ETL Process](#etl-process)
 15. [Conclusion](#conclusion)
 
-## Overview
+##Introduction
 The Sales Data Mart Project aims to enhance data analytics and reporting capabilities for the Sales Department by creating a specialized data mart. This project involves sourcing data from CSV files, loading it into an Oracle 19c database, and managing the ETL process through PL/SQL procedures and SSIS. The goal is to transform relational data into a dimensional model and generate OLAP cubes for advanced analytical capabilities.
 
 ## Tech Stack
