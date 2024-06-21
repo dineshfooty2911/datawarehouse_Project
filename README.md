@@ -38,7 +38,7 @@ The Sales Data Mart Project aims to enhance data analytics and reporting capabil
 ## Future Scope
 - Implement real-time data updating.
 - Extend the data mart to include additional departments.
-- 
+  
 ## Business Requirements
 A retail company selling products through various promotions needs insights into their sales, product performance, and customer behavior based on location.
 
